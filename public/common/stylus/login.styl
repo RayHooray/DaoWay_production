@@ -1,0 +1,83 @@
+body
+  padding-top 50px
+  width 100%
+  height 100%
+  .login_area
+    width 970px
+    margin 0 auto
+    .login
+      margin 13% auto 0
+      border 1px solid #cccccc
+      border-radius 5px
+      width 300px
+      padding 15px
+      .content
+        width 100%
+        display flex
+        flex-direction column
+        justify-content space-between
+        >h2
+          height 70px
+          background url("../images/houtai-logo.png") center no-repeat
+          background-size 290px
+          line-height 70px
+          text-indent -9999px
+        >form
+          width 100%
+          >div
+            display flex
+            flex-wrap wrap
+            &>span
+              box-sizing border-box
+              display block
+              height 53px
+              width 36px
+              padding 6px 12px
+              border 1px solid #cccccc
+              background #eeeeee
+              text-align center
+              &.user_msg
+                border-bottom transparent
+                border-radius 4px 0 0 0
+              &.pwd
+                border-radius 0 0 0 4px
+              img
+                margin-top 14px
+                width 11px
+                height 14px
+            &>input
+              width 87%
+              border solid 1px #cccccc
+              border-left transparent
+              &.msg
+                border-radius 0 4px 0 0
+                border-bottom transparent
+              &.pwd_in
+                border-radius 0 0 4px 0
+            &.button
+              margin-top 20px
+              >input
+                width 100%
+                padding 10px 16px
+                display block
+                border-radius 5px
+                border 1px #2e6da4
+                background #337ab7
+          .alter
+            margin-top 15px
+            box-sizing border-box
+            width 100%
+            padding 15px
+            color #a94442
+            background #f2dede
+            border #ebccd1 1px solid
+            border-radius 4px
+            display none
+
+        .ifError
+          display flex
+          justify-content space-between
+          padding 20px
+          font-size 14px
+          a
+            color #337ab7

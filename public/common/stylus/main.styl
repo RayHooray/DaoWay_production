@@ -1,0 +1,285 @@
+.header
+  box-sizing border-box
+  width 100%
+  background #ffffff
+  border 1px solid #e5e5e5
+  nav
+    display flex
+    justify-content space-between
+    width 1200px
+    height 70px
+    margin 0 auto
+    .left
+      margin-right 15px
+      margin-left 15px
+      text-align center
+      a
+        display block
+        height 40px
+        font-size 40px
+        img
+          margin-top 8px
+          height 100%
+    .right
+      width 70%
+      margin-top 15px
+      display flex
+      align-content center
+      ul
+        width 100%
+        display flex
+        justify-content space-around
+        font-size 16px
+        li
+          text-align center
+          line-height 30px
+          &:hover
+            >a
+              color #ff0000
+          a
+            font-weight 700
+            color #121212
+          &.position
+            margin-left 0
+            display flex
+            justify-content space-around
+            align-content center
+            span
+              font-weight 700
+          &.active
+            >a
+              color #ff0000
+          &.merchant
+            >a
+              border-radius 5px
+              padding 5px
+              background #ff0000
+              color #ffffff
+.banner_container
+  width 100%
+  position relative
+  .swiper-container
+    width 100%
+    overflow auto
+    .swiper-wrapper
+      width 300%
+      font-size 0
+      display flex
+      .swiper-slide
+        width 100%
+        height 420px
+        >a
+          >img
+            height 100%
+  .banner_nav
+    margin 0 auto
+    position absolute
+    top 0
+    left 20%
+    .nav_list
+      background #757881
+      opacity 0.7
+      width 200px
+      height 420px
+      display flex
+      flex-direction column
+      align-items center
+      .nav_item
+        width 100%
+        height 10%
+        text-align center
+        line-height 42px
+        a
+          display block
+          width 100%
+          height 100%
+          &:hover
+            background rgb(35,82,145)
+            >img
+              visibility hidden
+          span
+           margin-right 20px
+           font-weight 700
+           color #ffffff
+.ad_box
+  width 100%
+  background #ffffff
+  padding-bottom 10px
+  margin-bottom 23px
+  .serve_content
+    width 1200px
+    margin 0 auto
+    padding 50px 0 0
+    .serve_navigation
+      width  100%
+      text-align center
+      font-family "Microsoft YaHei"
+      margin-bottom 20px
+      .up
+        font-size 28px
+        font-weight 800
+        color #3d3838
+      .down
+        font-family "幼圆"
+        margin-top 15px
+        position relative
+        >ul
+          display flex
+          justify-content center
+          font-size 22px
+          >li
+            margin 0 10px
+            >a
+              color #3d3838
+              &:hover
+                color #ff0000
+        >span
+          font-size 18px
+          position absolute
+          right 0
+          top 0
+          >a
+            &:hover
+              color #ff0000
+    .service_tags
+      width 100%
+      .service_tags_list
+        width 100%
+        display flex
+        justify-content space-around
+        .service_tags_item
+          width 20%
+          box-sizing border-box
+          margin 0 5px
+          border 1px solid #e5e5e5
+          &:hover
+            box-shadow 5px 5px 15px #cccccc
+          >a
+            display block
+            box-sizing border-box
+            padding 10px
+            width 100%
+            >img
+              width 100%
+            .service_name
+              height 28px
+              padding 10px 0
+              font-size 16px
+              color #000000
+              font-weight 800
+            .service_details
+              color #929292
+              padding 5px 0
+              font-size 13px
+              height 58px
+              line-height 18px
+            .price
+              display flex
+              justify-content space-between
+              line-height 20px
+              >div
+                font-size 14px
+                padding 5px 5px
+                color #fb474f
+                >span
+                  font-size 20px
+                  font-weight 600
+                &.detail
+                  width 76px
+                  height 24px
+                  line-height 24px
+                  text-align center
+                  background #fb474f
+                  border-radius 5px
+                  color #ffffff
+.guarantee
+  width 100%
+  text-align center
+  padding-top 60px
+  background #ffffff
+  >h2
+    font-size 30px
+    font-family "微软雅黑"
+    font-weight 800
+    >i
+      font-style normal
+      color #fb474f
+      font-weight 800
+  >p
+    font-size 22px
+    color #3d3838
+    padding 20px
+.service_guarantee
+  width 100%
+  background #ffffff
+  text-align center
+  >ul
+    display flex
+    justify-content center
+    white-space nowrap
+    >li
+      margin 0 20px
+      font-size 18px
+      color #1d1515
+      >img
+        vertical-align top
+.footer
+  width 100%
+  background #ffffff
+  padding-bottom 60px
+  >dl
+    width 1200px
+    margin 0 auto
+    display flex
+    justify-content space-between
+    >dt
+      font-family "微软雅黑"
+      font-size 18px
+      font-weight 700
+      line-height 30px
+    >dd
+      margin-left 30px
+      width 90%
+      line-height 30px
+      display flex
+      flex-wrap: wrap
+      >a
+        display block
+        width 9%
+        text-align center
+        font-family "微软雅黑"
+        font-size 16px
+        font-weight 200
+        color #898989
+.cooperation
+  width 100%
+  >dl
+    width 1200px
+    margin 0 auto
+    >dt
+      padding 30px 0
+      font-weight bold
+      font-size 18px
+      color #1d1515
+    >dd
+      width 100%
+      display flex
+      flex-direction column
+      justify-content space-between
+      >ul
+        display flex
+        >li
+          width 10%
+          height 60px
+          a
+            >img
+              width 100px
+.file
+  width 100%
+  >p
+    width 1200px
+    margin 0 auto
+    text-align left
+    font-size 14px
+    line-height 40px
+    color #898989
